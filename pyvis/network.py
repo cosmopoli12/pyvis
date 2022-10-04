@@ -516,7 +516,7 @@ class Network(object):
             return IFrame(name, width=self.width, height="600px")
         else:
             if local:
-                tempdir = "."
+                tempdir = ""
             else:
                 tempdir = tempfile.mkdtemp()
             # with tempfile.mkdtemp() as tempdir:
